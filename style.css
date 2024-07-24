@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 3vw;
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding: 50px 20px 30px 20px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.363);
+}
+
+header > h1{
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8vw;
+
+    padding-bottom: 20px;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+main {
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2em;
+
+    max-width: 1500px;
+    margin: auto;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.445);
+}
+
+main p {
+    padding: 5px 10px 5px 10px;
+}
+
+section {
+    padding: 7vw;
+    background-color: rgb(255, 252, 247);
+}
+
+.imagem {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.377);
+    color: rgb(247, 247, 247);
+    width: 60vw;
+    max-width: 1500px;
+}
+
+#img1 {
+    background: black url(image/pomba.jpg) center right no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 9px 4px rgba(0, 0, 0, 0.342);
+}
+
+#img2 {
+    background: black url(image/biblia.jpg) center center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 9px 4px rgba(0, 0, 0, 0.842);
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2vw;
+
+    background-color: black;
+    color: white;text-align: center;
+}
